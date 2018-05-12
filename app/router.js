@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('account');
   this.route('threadlist');
   this.route('createthread');
+  this.route('topic');
 });
 
 export default Router;
