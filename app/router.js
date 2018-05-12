@@ -7,6 +7,13 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('pandabb', function(){
+    this.route('pandabb', {path:  ':pandabb_id'})
+  });
+  this.route('users');
+  this.route('authenticated');
+  this.route('login');
+  this.route('register');
 });
 
 export default Router;
