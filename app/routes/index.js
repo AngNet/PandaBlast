@@ -1,14 +1,10 @@
 import Route from '@ember/routing/route';
-<<<<<<< HEAD
 import { set } from '@ember/object';
 import { all } from 'rsvp';
-=======
->>>>>>> 84f6497c9b553f4732cd5b6f7114fdeb8599bfa0
 
 export default Route.extend({
   beforeModel(){
     this.replaceWith("index");
-<<<<<<< HEAD
   },
 
   model() {
@@ -41,7 +37,5 @@ export default Route.extend({
     }
 
     return Ember.RSVP.hash(promises);
-=======
->>>>>>> 84f6497c9b553f4732cd5b6f7114fdeb8599bfa0
   }
 });

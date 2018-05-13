@@ -1,12 +1,9 @@
-/* eslint-disable no-console, no-unused-vars */
 import Controller from '@ember/controller';
 import {
   computed
 } from '@ember/object';
-import $ from "jquery";
 
 export default Controller.extend({
-
   queryParams: ['id'],
   id: null,
 
@@ -38,8 +35,6 @@ export default Controller.extend({
       this.set('responseMessage', `Thank you! We've just saved your email address: ${this.get('emailAddress')}`);
       this.set('emailAddress', '');
     }
-
-
   }
 
 });
