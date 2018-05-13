@@ -1,0 +1,29 @@
+<nav class="navbar navbar-inverse justify-content-between">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+          </button>
+      {{#link-to "index" class="navbar-brand" }}Panda Blast{{/link-to}}
+    </div>
+    <div class="collapse navbar-collapse" id="main-navbar">
+      <ul class="nav navbar-nav">
+        {{#link-to "index" tagName="li" }}<a href="">Home</a>{{/link-to}}
+        {{#link-to "login" tagName="li" }}<a href="">Login</a>{{/link-to}}
+        <!-- {{#link-to "contact" tagName="li"}}<a href="">Contact</a>{{/link-to}} -->
+      </ul>
+    </div>
+    <!-- /.navbar-collapse -->
+    <form class="form-inline">
+      <input class="form-control" type="text" name="" value="" placeholder="Search">
+      <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+  </div>
+  <!-- /.container-fluid -->
+
+  <!-- figure out how to place search bar on same line -->
+
+</nav>

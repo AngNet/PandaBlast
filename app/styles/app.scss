@@ -1,0 +1,78 @@
+@import "bootstrap";
+
+body{
+  padding-top: 20px;
+  background-color: #e8e9ea;
+}
+
+.warpper{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.form-signin {
+  max-width: 380px;
+  padding: 15px 35px 45px;
+  margin: 0 auto;
+  background-color: #fff;
+  border: 1px solid rgba(0,0,0,0.1);
+}
+.topic-container{
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  align-items: stretch;
+}
+
+.topic-title {
+  font-weight:bold;
+  font-size:large;
+  white-space:nowrap;
+}
+
+.topic-author {
+  font-size:small;
+  font-style:italic;
+  margin-left:20px;
+}
+
+.white-div{
+  background-color: #fff;
+  padding: 10px;
+}
+
+.current-topics{
+  flex:1;
+  margin:2px;
+  padding: 20px;
+}
+
+.post-list{
+  padding: 20px;
+}
+
+.btn-login{
+  background-color: #333333;
+}
+
+.btn-login:hover{
+  background-color: #595a5b;
+}
+
+.create-thread{
+  padding: 2%;
+}
+
+.post-container{
+  padding:20px;
+  margin-bottom:3px;
+  background:#fff;
+}
+
+.post-user{
+  font-weight:bold;
+}
+
+.post-content{
+
+}
