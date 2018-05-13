@@ -1,0 +1,29 @@
+{
+	"type": "UserCollection",
+	"properties": {
+		"userEmail": {
+			"name": "userEmail",
+			"type": "string",
+			"typeLabel": "string",
+			"required": true,
+			"id": "userEmail",
+			"order": 0
+		},
+		"avatarPath": {
+			"name": "avatarPath",
+			"type": "string",
+			"typeLabel": "string",
+			"required": false,
+			"id": "avatarPath",
+			"order": 1
+		},
+		"userTimestamp": {
+			"name": "userTimestamp",
+			"type": "number",
+			"typeLabel": "number",
+			"required": true,
+			"id": "userTimestamp",
+			"order": 2
+		}
+	}
+}
