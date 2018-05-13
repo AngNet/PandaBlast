@@ -23,6 +23,22 @@ body{
   flex-flow: row wrap;
   align-items: stretch;
 }
+<<<<<<< HEAD
+
+.topic-title {
+  font-weight:bold;
+  font-size:large;
+  white-space:nowrap;
+}
+
+.topic-author {
+  font-size:small;
+  font-style:italic;
+  margin-left:20px;
+}
+
+=======
+>>>>>>> 84f6497c9b553f4732cd5b6f7114fdeb8599bfa0
 .white-div{
   background-color: #fff;
   padding: 10px;
@@ -30,8 +46,19 @@ body{
 
 .current-topics{
   flex:1;
+<<<<<<< HEAD
+  margin:2px;
   padding: 20px;
 }
+
+.post-list{
+  padding: 20px;
+}
+
+=======
+  padding: 20px;
+}
+>>>>>>> 84f6497c9b553f4732cd5b6f7114fdeb8599bfa0
 .btn-login{
   background-color: #333333;
 }
@@ -43,3 +70,20 @@ body{
 .create-thread{
   padding: 2%;
 }
+<<<<<<< HEAD
+
+.post-container{
+  padding:20px;
+  margin-bottom:3px;
+  background:#fff;
+}
+
+.post-user{
+  font-weight:bold;
+}
+
+.post-content{
+
+}
+=======
+>>>>>>> 84f6497c9b553f4732cd5b6f7114fdeb8599bfa0
