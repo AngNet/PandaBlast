@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* eslint-disable no-console, no-unused-vars */
 import Route from '@ember/routing/route';
 import $ from "jquery";
@@ -23,4 +24,9 @@ export default Route.extend({
     }
   }
 
+=======
+import Route from '@ember/routing/route';
+
+export default Route.extend({
+>>>>>>> 84f6497c9b553f4732cd5b6f7114fdeb8599bfa0
 });
