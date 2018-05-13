@@ -20,26 +20,20 @@
 <div class="container">
   <h3>Current Topics:</h3>
   <div class="topic-container">
-<<<<<<< HEAD
     {{#each model.topics as |topic|}}
-    <div class="white-div current-topics col-md-4">
-      <div class="topic-title">
-        {{#link-to "topic" (query-params id=topic.id) tagName="a"}}{{topic.threadTitle}}{{/link-to}}
+      <div class="white-div current-topics col-md-4">
+        <div class="topic-title">
+          {{#link-to "topic" (query-params id=topic.id) tagName="a" }}{{topic.threadTitle}}{{/link-to}}
+        </div>
+        <div class="topic-author">
+          <span>by: {{topic.userId}}</span>
+        </div>
+        <div class="topic-timestamp">
+          <span>on: {{topic.threadTimestamp}}</span>
+        </div>
       </div>
-      <div class="topic-author">
-        <span>by: {{topic.userId}}</span>
-      </div>
-      <div class="topic-timestamp">
-        <span>on: {{topic.threadTimestamp}}</span>
-      </div>
-    </div>
     {{/each}}
-=======
-        <span>by: {{topic.username}}</span>
-      </div>
-    </div>
-    {{/each}}
->>>>>>> 2c94a377aaa7946ac773dd13c12241f771cb2880
+    <span>by: {{topic.username}}</span>
   </div>
 </div>
 

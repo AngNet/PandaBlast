@@ -1,7 +1,9 @@
+/* eslint-disable no-console, no-unused-vars */
 import Controller from '@ember/controller';
 import {
   computed
 } from '@ember/object';
+import $ from "jquery";
 
 export default Controller.extend({
   queryParams: ['id'],

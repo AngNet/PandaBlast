@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 <!-- <div class="">
 =======
 <div class="">
 >>>>>>> 2c94a377aaa7946ac773dd13c12241f771cb2880
-    {{#link-to "createthread" tagName="p" }}<button class="btn btn-primary btn-lg btn-login" type="button" name="button">Create new thread</button>{{/link-to}}
+    //{{#link-to "createthread" tagName="p" }}<button class="btn btn-primary btn-lg btn-login" type="button" name="button">Create new thread</button>{{/link-to}}
 </div>
 
 <div class="col-sm-9">
@@ -21,11 +20,11 @@
 
 <div class="container" style="display: none;">
   <!-- button to reply to any post -->
-<<<<<<< HEAD
+
 <!-- <br>
   <h3>Comments here:</h3> -->
 
-<!-- </div> --> -->
+<!-- </div> -->
 <!-- Modal window to add comments-->
 <!-- <div class="modal fade" id="myModal" role="dialog">
     <div class="modal-dialog">
@@ -36,43 +35,35 @@
 
 </div>
   <!-- Modal window to add comments-->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-      <!-- Modal content-->
-      <div class="modal-content">
->>>>>>> 84f6497c9b553f4732cd5b6f7114fdeb8599bfa0
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
-          <h4 class="modal-title">Add comment</h4>
-        </div>
-        <div class="modal-body">
-          <div class="row">
-            <div class="col-md-12">
-              <div class="form-group">
-<<<<<<< HEAD
-                {{textarea id="myContent" value=message class="form-control" rows=5 placeholder="Please type your message here." autofocus="autofocus"}}
-=======
-                {{textarea id="comment" value=message class="form-control" rows=5 placeholder="Please type your message here." autofocus="autofocus"}}
->>>>>>> 2c94a377aaa7946ac773dd13c12241f771cb2880
-              </div>
+<div class="modal fade" id="myModal" role="dialog">
+  <div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Add comment</h4>
+      </div>
+      <div class="modal-body">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="form-group">
+              {{textarea id="myContent" value=message class="form-control" rows=5 placeholder="Please type your message here." autofocus="autofocus"}} {{textarea id="comment" value=message class="form-control" rows=5 placeholder="Please type your message here." autofocus="autofocus"}}
             </div>
           </div>
         </div>
-        <div class="modal-footer">
-          <div class="col-md-12">
-<<<<<<< HEAD
-            <button disabled= {{isDisabled}} class="btn btn-primary btn-lg btn-login" data-dismiss="modal" {{action 'saveComment'}}>Send message</button>
-=======
-            <button disabled= {{isDisabled}} class="btn btn-primary btn-lg btn-login" data-dismiss="modal" {{action 'sendMessage'}}>Send message</button>
->>>>>>> 2c94a377aaa7946ac773dd13c12241f771cb2880
-            <button type="button" class="btn btn-primary btn-lg btn-login" data-dismiss="modal">Close</button>
-          </div>
+      </div>
+      <div class="modal-footer">
+        <div class="col-md-12">
+          <button disabled= {{isDisabled}} class="btn btn-primary btn-lg btn-login" data-dismiss="modal" {{action 'saveComment'}}>Send message</button>
+
+          <button disabled= {{isDisabled}} class="btn btn-primary btn-lg btn-login" data-dismiss="modal" {{action 'sendMessage'}}>Send message</button>
+          <button type="button" class="btn btn-primary btn-lg btn-login" data-dismiss="modal">Close</button>
         </div>
       </div>
     </div>
   </div>
-<<<<<<< HEAD
-</div> -->-->
+</div>
+
 
 <div class="create-thread">
   <form class="">
@@ -92,6 +83,4 @@
       </div>
     </div>
   </form>
-=======
->>>>>>> 2c94a377aaa7946ac773dd13c12241f771cb2880
 </div>

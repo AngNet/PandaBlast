@@ -1,3 +1,4 @@
+/* eslint-disable no-console, no-unused-vars */
 import Route from '@ember/routing/route';
 import { set } from '@ember/object';
 import { all } from 'rsvp';
