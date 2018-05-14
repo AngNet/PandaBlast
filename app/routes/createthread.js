@@ -1,9 +1,9 @@
 /* eslint-disable no-console, no-unused-vars */
 import Route from '@ember/routing/route';
-import $ from "jquery";
+//import $ from "jquery";
 
 export default Route.extend({
-
+/*
   actions: {
     addThread() {
       var title = $("#threadtitle").val();
@@ -22,4 +22,5 @@ export default Route.extend({
       });
     }
   }
+  */
 })
