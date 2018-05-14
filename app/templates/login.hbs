@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="container wrapper">
   <form class="form-signin" action="index.html" method="post">
     <h4 class="">Login</h4>
@@ -17,3 +18,18 @@
     </div>
   </form>
 </div>
+=======
+<h1>Login</h1>
+
+<div class="field">
+  <label>User Name</label>
+  {{input value=userName}}
+  {{display-errors errors=errors.userName showErrors=showErrors}}
+</div>
+<div class="field">
+  <label>Password</label>
+  {{input value=password type="password"}}
+  {{display-errors errors=errors.userName showErrors=showErrors}}
+</div>
+<div class="btn btn-primary" {{action 'login'}}>Login</div>
+>>>>>>> logins

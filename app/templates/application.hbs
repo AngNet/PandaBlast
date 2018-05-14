@@ -1,4 +1,24 @@
 <div class="container">
+<<<<<<< HEAD
   {{partial 'navbar'}}
+=======
+  <div class="row">
+    <div class="pull-right">
+      {{#if session.currentUser}}
+        <span {{action 'logout'}} style="cursor: pointer;">logout
+      {{else}}
+        {{#link-to 'login'}}Login{{/link-to}}
+        {{#link-to 'register'}}Register{{/link-to}}
+      {{/if}}
+    </div>
+    {{link-to 'PandaBB' 'pandaBB'}}
+    {{link-to 'Authenticated 'authenticated'}}
+  </div>
+  <div class="flash-messages">
+    {{#each flashMesages.queue as |flash|}}
+      {{flash-message flash=flash}}
+    {{/each}}
+  </div>
+>>>>>>> logins
   {{outlet}}
 </div>
