@@ -1,3 +1,4 @@
+<!--
 <div class="create-thread">
   <form class="">
     <h4 class="">Create new thread</h4>
@@ -9,6 +10,21 @@
     </div>
     <div class="form-group">
       <input class="btn btn-primary btn-lg btn-login" type="button" value="Create" data-toggle="modal" data-target="#myModal" {{action 'addThread'}}>
+    </div>
+  </form>
+</div>
+-->
+<div class="create-thread">
+  <form class="">
+    <h4 class="">Create new thread</h4>
+    <div class="form-group">
+      {{input type="title" class="form-control" placeholder="Title" value=threadtitle autofocus="autofocus"}}
+    </div>
+    <div class="form-group">
+      {{textarea class="form-control" placeholder="Description" rows="8" value=threadDescription}}
+    </div>
+    <div class="form-group">
+    <button class="btn btn-primary btn-lg btn-login" {{action 'postThread'}}>Create</button>
     </div>
   </form>
 </div>
