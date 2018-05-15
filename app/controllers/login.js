@@ -1,15 +1,15 @@
 import Ember from 'ember';
 import EmberValidations from 'ember-validations';
 
-export default Ember.Controller.extend(EmberValications, {
+export default Ember.Controller.extend(EmberValidations, {
   showErrors: false,
   session: Ember.inject.service(),
   validations: {
     userName: {
-      presense: true
+      presence: true
     },
     password: {
-      presense: true,
+      presence: true,
       length: {minimum: 6}
     }
   },

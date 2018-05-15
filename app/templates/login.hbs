@@ -1,35 +1,11 @@
-<<<<<<< HEAD
-<div class="container wrapper">
-  <form class="form-signin" action="index.html" method="post">
-    <h4 class="">Login</h4>
-    <div class="form-group row">
-      <input class="form-control" type="text" name="username" value="" placeholder="Your username">
-    </div>
-    <div class="form-group row">
-      <input class="form-control" type="password" name="password" value="" placeholder="Your password">
-    </div>
-    <div class="form-group row">
-      <input class="btn btn-primary btn-block btn-login" type="button" name="" value="Login">
-    </div>
-    <div class="">
-      <p class="text-center small">Don't have an account?
-        {{#link-to "register" tagName="p" }}<a href="">Sign up here</a>{{/link-to}}
-      </p>
-    </div>
-  </form>
-</div>
-=======
 <h1>Login</h1>
 
 <div class="field">
   <label>User Name</label>
   {{input value=userName}}
-  {{display-errors errors=errors.userName showErrors=showErrors}}
 </div>
 <div class="field">
   <label>Password</label>
   {{input value=password type="password"}}
-  {{display-errors errors=errors.userName showErrors=showErrors}}
 </div>
 <div class="btn btn-primary" {{action 'login'}}>Login</div>
->>>>>>> logins

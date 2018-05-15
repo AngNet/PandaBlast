@@ -20,15 +20,17 @@ export default Controller.extend({
 
         //addind the posts
         dpd.posts.post({
-          userId: "ehassah",
+          userId: "anonymous",
           threadId: topicId[1],
           postContent: myContent,
-          postTimestamp: new Date()
+          postTimestamp: Date.now()
         }, function(result, error) {
           // Do something
           var myContent = $("#myContent").val("");
           console.log("this is post");
         });
+
+        window.location.reload();
 
       });
     },

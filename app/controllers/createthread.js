@@ -25,6 +25,8 @@ export default Controller.extend({
             if (err) return console.log(err);
             console.log(result, result.id);
           }
+
+        window.location.replace("http://localhost:4200/");
       })
     }
   }

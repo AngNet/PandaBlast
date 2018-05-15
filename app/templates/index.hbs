@@ -1,4 +1,4 @@
-<div class="container-fluid">
+<!--<div class="container-fluid">
   <form class="form-inline" action="index.html" method="post">
     <h4 class="">Login</h4>
     <div class="form-group">
@@ -15,7 +15,7 @@
       {{#link-to "register" tagName="div" }}<input class="btn btn-primary btn-block btn-login" type="button" name="" value="Register">{{/link-to}}
     </div>
   </form>
-</div>
+</div>-->
 
 <div class="container">
   <h3>Current Topics:</h3>
@@ -26,10 +26,7 @@
           {{#link-to "topic" (query-params id=topic.id) tagName="a" }}{{topic.threadTitle}}{{/link-to}}
         </div>
         <div class="topic-author">
-          <span>by: {{topic.userId}}</span>
-        </div>
-        <div class="topic-timestamp">
-          <span>on: {{topic.threadTimestamp}}</span>
+          <span>{{topic.userId}}</span>
         </div>
       </div>
     {{/each}}

@@ -42,7 +42,7 @@ export default Ember.Service.extend({
         this.initializeFromCookie()
         resolve()
       }, (response)=>{
-        reject('Server error: ${Ember.get(response, 'responseJSON.error')}')
+        reject("Server error: ${Ember.get(response, 'responseJSON.error')}")
       })
     })
   },
